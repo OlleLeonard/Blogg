@@ -1,0 +1,23 @@
+.writeForum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 320px;
+  width: 400px;
+  background-color: rgb(131, 157, 234);
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+}
+
+.writeInput:focus {
+  outline: none;
+}
+
+.writeForumText {
+  height: 120px;
+  width: 200px;
+}
